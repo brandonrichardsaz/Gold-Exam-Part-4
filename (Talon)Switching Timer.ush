@@ -1,0 +1,113 @@
+[BEGIN]
+  Version=1
+[END]
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=UserSPlus
+  RelVrs=1
+  IntStrVrs=1
+  SPlusVrs=4.04.01
+  CrossCplrVrs=1.3
+[END]
+[BEGIN]
+  ObjTp=Hd
+[END]
+[BEGIN]
+  ObjTp=Symbol
+  Exclusions=1,19,20,21,88,89,167,168,179,213,214,215,216,217,225,226,248,249,266,267,310,718,756,854,
+  Exclusions_CDS=5
+  Inclusions_CDS=6
+  Name=(Talon)Switching Timer
+  SmplCName=(Talon)Switching Timer.usp
+  Code=1
+  SysRev5=3.090
+  SMWRev=2.02.05
+  InputCue1=Poll
+  InputSigType1=Digital
+  InputCue2=PowerOn
+  InputSigType2=Digital
+  InputCue3=PowerOff
+  InputSigType3=Digital
+  InputCue4=PowerStatus
+  InputSigType4=Digital
+  InputCue5=Input
+  InputSigType5=Digital
+  InputCue6=Mode
+  InputSigType6=Digital
+  OutputCue1=DeviceBusy
+  OutputSigType1=Digital
+  OutputCue2=PowerOnPulse
+  OutputSigType2=Digital
+  OutputCue3=PowerOffPulse
+  OutputSigType3=Digital
+  OutputCue4=InputStepPulse
+  OutputSigType4=Digital
+  OutputCue5=ModeStepPulse
+  OutputSigType5=Digital
+  OutputCue6=InputChange
+  OutputSigType6=Digital
+  OutputCue7=ModeChange
+  OutputSigType7=Digital
+  InputList2Cue1=InputDirect
+  InputList2SigType1=Analog
+  InputList2Cue2=ModeDirect
+  InputList2SigType2=Analog
+  InputList2Cue3=PowerOnTime
+  InputList2SigType3=Analog
+  InputList2Cue4=PowerOffTime
+  InputList2SigType4=Analog
+  InputList2Cue5=InputChangeTime
+  InputList2SigType5=Analog
+  InputList2Cue6=ModeChangeTime
+  InputList2SigType6=Analog
+  OutputList2Cue1=BusyTimeOut
+  OutputList2SigType1=Analog
+  OutputList2Cue2=Status
+  OutputList2SigType2=Analog
+  OutputList2Cue3=NewInputDirect
+  OutputList2SigType3=Analog
+  OutputList2Cue4=NewModeDirect
+  OutputList2SigType4=Analog
+  ParamCue1=[Reference Name]
+  MinVariableInputs=6
+  MaxVariableInputs=6
+  MinVariableInputsList2=6
+  MaxVariableInputsList2=6
+  MinVariableOutputs=7
+  MaxVariableOutputs=7
+  MinVariableOutputsList2=4
+  MaxVariableOutputsList2=4
+  MinVariableParams=0
+  MaxVariableParams=0
+  Expand=expand_separately
+  Expand2=expand_separately
+  ProgramTree=Logic
+  SymbolTree=39
+  Hint=
+  PdfHelp=
+  HelpID= 
+  Render=4
+  Smpl-C=16
+  CompilerCode=-48
+  CompilerParamCode=27
+  CompilerParamCode5=14
+  NumFixedParams=1
+  Pp1=1
+  MPp=1
+  NVStorage=10
+  ParamSigType1=String
+  SmplCInputCue1=o#
+  SmplCOutputCue1=i#
+  SmplCInputList2Cue1=an#
+  SmplCOutputList2Cue1=ai#
+  SPlus2CompiledName=S2__Talon_Switching_Timer
+  SymJam=NonExclusive
+  FileName=(Talon)Switching Timer.ush
+  SIMPLPlusModuleEncoding=0
+[END]
+[BEGIN]
+  ObjTp=Dp
+  H=1
+  Tp=1
+  NoS=False
+[END]
